@@ -1,0 +1,36 @@
+body {
+  background-color: aqua;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrapper {
+  width: 60%;
+  max-width: 18rem;
+}
+
+form input {
+  width: 100%;
+}
+form input {
+  display: block;
+  margin-top: 3px;
+  border: none;
+}
+
+form div {
+  margin-bottom: 0.5rem;
+}
+.form-submit {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
